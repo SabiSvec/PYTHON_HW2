@@ -1,8 +1,4 @@
-#  'PRIMARYTITLE', 2 - Title
-#  'STARTYEAR', 5
-#   'GENRES', 8
-#  'DIRECTOR', 15
-#  'CAST', 16
+
 
 import json
 
@@ -23,7 +19,7 @@ genres_idx = header.index('GENRES')
 year_idx = header.index('STARTYEAR')
 
 film_list = []
-
+ 
 for row in rows:
     title = row[title_idx]
 
